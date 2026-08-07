@@ -1,0 +1,11 @@
+{
+  "id": "zotero",
+  "name": { "zh": "文献工作台", "en": "Zotero Desk" },
+  "icon": "notebook-text",
+  "version": "1.0.0",
+  "layout": {
+    "main": [{ "type": "amadeus-editor" }],
+    "left": [{ "type": "plugin:zotero:library" }]
+  },
+  "requires": { "views": ["plugin:zotero:library"] }
+}
