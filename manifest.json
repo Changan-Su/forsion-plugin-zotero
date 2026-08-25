@@ -1,9 +1,11 @@
 {
   "id": "zotero",
   "name": "文献工作台",
-  "version": "1.0.0",
+  "nameEn": "Literature Workbench",
+  "version": "1.3.1",
   "apiVersion": 1,
   "description": "连接本机 Zotero 7(localhost 本地 API,零云依赖):浏览/检索文献库,一键生成每篇文献的阅读笔记,把 PDF 划线批注幂等导入笔记,并把规范引用块插进当前打开的笔记;PDF 阅读仍在 Zotero 里完成(zotero:// 协议唤起)。文献数据只在本机 Forsion ↔ Zotero 之间流动;仅「AI 读文献」会把该篇阅读笔记文本发给你登录的 Forsion 后端生成速览。",
+  "descriptionEn": "Connects to Zotero 7 on this computer (localhost local API, no cloud dependency): browse and search your library, create a reading note for any item, import PDF highlights and annotations idempotently into that note, and insert a formatted citation block into the note you have open. PDF reading still happens inside Zotero (launched via the zotero:// protocol). Library data only ever moves between Forsion and Zotero on this machine; only \"AI Digest\" sends that reading note's text to the Forsion backend you are signed in to.",
   "main": "main.js",
   "onboarding": {
     "intro": "文献工作台把本机 Zotero 文献库接进 Forsion:文献浏览检索 → 每文献阅读笔记 → 划线批注导入 → 引用块插入。PDF 阅读与划线仍在 Zotero 里完成,笔记与引用沉淀在这里。",
@@ -17,6 +19,19 @@
         "description": "命令面板「文献工作台:打开」进入工作台:左栏选集合或检索,右栏点开文献 →「阅读笔记」建笔记、「导入划线批注」把 Zotero 里的高亮拉进笔记(重复导入只增量)、「插入引用」把引用块插进当前打开的笔记、「在 Zotero 打开 PDF」跳回 Zotero 阅读。写作途中用命令「文献工作台:插入引用(检索)」随手引用。"
       }
     ],
+    "en": {
+      "intro": "Literature Workbench brings the Zotero library on this computer into Forsion: browse and search items → a reading note per item → import highlights and annotations → insert citation blocks. Reading and highlighting PDFs still happens in Zotero; the notes and citations live here.",
+      "steps": [
+        {
+          "title": "Turn on Zotero's local API",
+          "description": "Open the Zotero 7 desktop app → Settings → Advanced → tick \"Allow other applications on this computer to communicate with Zotero\". The default port is 23119; if you changed it, update the port in this plugin's settings too."
+        },
+        {
+          "title": "Start using it",
+          "description": "Run \"Literature Workbench: Open\" from the command palette: pick a collection or search on the left, open an item on the right → \"Create Reading Note\" makes the note, \"Import Highlights\" pulls your Zotero highlights into it (re-importing only adds what's new), \"Insert Citation\" drops a citation block into the note you have open, and \"Open PDF in Zotero\" jumps back to Zotero to read. While writing, the command \"Literature Workbench: Insert Citation (Search)\" lets you cite without leaving the page."
+        }
+      ]
+    },
     "settings": true
   }
 }

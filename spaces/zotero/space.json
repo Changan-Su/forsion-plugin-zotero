@@ -1,6 +1,6 @@
 {
   "id": "zotero",
-  "name": { "zh": "文献工作台", "en": "Zotero Desk" },
+  "name": { "zh": "文献工作台", "en": "Literature Workbench" },
   "icon": "notebook-text",
   "version": "1.0.0",
   "layout": {
