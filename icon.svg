@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Literature Workbench — Reference shelf</title>
+  <!-- Original Forsion plugin identity artwork, 2026-10-05. -->
+  <defs><linearGradient id="tile" x1="28" y1="12" x2="222" y2="252" gradientUnits="userSpaceOnUse"><stop stop-color="#57414b"/><stop offset="1" stop-color="#34272d"/></linearGradient></defs>
+  <rect x="4" y="4" width="248" height="248" rx="58" fill="url(#tile)"/>
+  <g style="--ink:#f7ecdf;--accent:#d1a2b2;--cut:#34272d" fill="none" stroke="var(--ink)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="50" y="59" width="40" height="137" rx="9" fill="var(--ink)" stroke="none"/>
+    <rect x="102" y="50" width="40" height="146" rx="9" fill="var(--ink)" stroke="none"/>
+    <rect x="159" y="63" width="37" height="134" rx="9" transform="rotate(-10 177 130)" fill="var(--accent)" stroke="none"/>
+    <path d="M65 82h10m-10 85h10m42-89h10m-10 89h10" stroke="var(--cut)" stroke-width="8"/>
+    <path d="M49 209h156" stroke-width="9"/>
+  </g>
+</svg>

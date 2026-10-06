@@ -2,6 +2,7 @@
   "id": "zotero",
   "name": { "zh": "文献工作台", "en": "Literature Workbench" },
   "icon": "notebook-text",
+  "iconFile": "icon.png",
   "version": "1.0.0",
   "layout": {
     "main": [{ "type": "amadeus-editor" }],
